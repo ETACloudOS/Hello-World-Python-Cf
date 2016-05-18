@@ -1,0 +1,6 @@
+applications:
+- name: piche2-python-starter
+  memory: 128M
+  buildpack: python_buildpack
+  command: python flask_test.py
+
