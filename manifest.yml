@@ -1,6 +1,8 @@
 applications:
 - name: <your-name>-python-starter
   memory: 128M
-  buildpack: python_buildpack
-  command: python flask_test.py
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
+  command: python index.py
+  random-route: true
+
 
